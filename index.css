@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+        background-color:rgb(19,67,97)
+        
+  
+}
+
+nav{
+    /* border: 1px solid; */
+    height: 70px;
+    width: 120dvh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* position: fixed; */
+
+
+}
+
+nav a{
+    justify-content: end;
+    color: white;
+    gap: 20px;
+    
+}
+nav a:hover{
+    text-decoration: none;
+
+    
+}
+
+.image{
+    width: fit-content;
+    margin: auto;
+    margin-top: 60px;
+}
+
+
+
+.learnable{
+    height: 50dvh;
+    border: 1px solid;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.775),rgba(255, 255, 255, 0.09)), url('./Media/IMG_1028\ \(2\).jpg');
+    background-size: cover;
+    align-content: center;
+    text-align: center;
+    
+}
+
+
+.parent h1{
+    font-size:3rem;
+    color: white;
+}
+.parent h2{
+    font-size: 2rem;
+    color: white;
+}
+.paragraph p{
+    text-align: center;
+    margin-top: 80px;
+    line-height: 2rem;
+}
+.para h2{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 1.5rem;
+
+}
+.para p{
+    text-align: center;
+}
+
+.front{
+    width: 400px;
+    height: 40dvh;
+    margin: auto;
+    margin-top: 70px;
+    background-size: cover;
+    background-image: url(./Media/frontend-development-skills\ \(2\).jpg);
+    background-size: cover;
+
+
+    
+}
+
+.last{
+    width: 300px;
+    height: 30dvh;
+    margin: auto;
+}
+
+.last h2{
+    color: red;
+    text-align: center;
+    margin-top: 20px;   
+}
+
+.last p{
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+    background-image:;
+
+}
+
+.gen{
+    
+    height: 140px;
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(19,67,97);
+
+
+    
+}
+
+
